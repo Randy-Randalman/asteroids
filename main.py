@@ -55,7 +55,7 @@ def main():
         score_text = font.render(f"Score: {score}", True, "white")
         screen.blit(score_text, (0, 0))
 
-        for obj in drawable: 
+        for obj in drawable:
             obj.draw(screen)
 
         pygame.display.flip()
